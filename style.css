@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.buttonGrp {
+    display: flex;
+    margin: auto;
+    width: 55%;
+    justify-content: space-between;
+}
+
+
+.question {
+    display: block;
+}
+
+.answer {
+    display: none;
+    background-color: #f2dede;
+    display: block;
+    align-items: center;
+}
+
+.answer p {
+    margin: 1rem;
+}
+
+#next {
+    margin: 10px;
+}
